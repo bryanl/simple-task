@@ -1,0 +1,8 @@
+---
+project:
+  id: simple-task
+  servers:
+    - app:
+      size: 4gb
+      image: ubuntu-14-04-x64
+      cmd: touch /tmp/myapp
